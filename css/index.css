@@ -1,0 +1,229 @@
+.banner{
+    /* background: url(../img/home-header.png) center no-repeat contain; */
+    background-image: url(../img/home-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 787px;
+}
+@media (max-width: 767px) {
+    .banner{
+        background-image: url(../img/home-header-sm.png);
+        height: 396px;
+    }
+}
+.bannerText {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+    height: 100%;
+}
+/* .bannerText p{
+    font-size: 36px;
+    color: #650300;
+} */
+@media (max-width: 767px) {
+    .bannerText p{
+        font-size: 16px;
+    }
+}
+/* .bannerText h2{
+    font-size: 64px;
+    font-weight: bold;
+    color: #650300;
+} */
+@media (max-width: 767px) {
+    .bannerText h2{
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+}
+.bannerText a{
+    font-size: 20px;
+    background-color: #AA0601;
+    padding: 6px 12px;
+    color: #fff;
+    text-decoration: none;
+}
+.bannerText a:hover {
+    text-decoration: underline;
+}
+/* @media (max-width: 767px) {
+    .bannerText a{
+    }
+} */
+
+@media (max-width: 576px) {
+    .ServiceList h2{
+        font-size: 24px;
+    }
+}
+/* .ServiceList ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+/* @media (max-width: 767px) {
+    .ServiceList ul{
+        flex-wrap: wrap;
+    }
+} */
+.ServiceList ul li{
+    text-align: center;
+}
+.ServiceList .card{
+    /* width: 25%;
+    padding: 0 12px; */
+    width: calc(25% - 18px);
+/* 中間三個間隙＊２４px ， ７２的間距要平分在四個區塊 */
+/* 3*24=72 ; 72/4=18 */
+}
+@media (max-width: 992px) {
+    .ServiceList .card{
+        /* width: 50%;
+        padding: 0 12px 48px 12px; */
+        width: calc(50% - 12px);
+    }
+}
+@media (max-width: 576px) {
+    .ServiceList .card{
+        width: 100%;
+    }
+}
+.ServiceList img{
+    width: 83px;
+    height: 83px;
+}
+
+.ServiceList p{
+    text-align-last: left;
+}
+@media (max-width: 576px) {
+    .ServiceList p{
+        text-align-last: center;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .classic h2 {
+        font-size: 24px;
+    }
+}
+/* .classicUl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+@media (max-width: 992px) {
+    .classic .classicUl {
+        justify-content: center;
+    }
+}
+.classicCard {
+    width: calc(33% - 16px);}
+
+@media (max-width: 992px) {
+    .classicCard {
+        width: 51%;
+    }
+}
+
+@media (max-width: 576px) {
+    .classicCard {
+        width: 100%;
+    }
+}
+
+
+.co-branding{
+    background-image: url(../img/index-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 608px;
+}
+@media (max-width: 992px) {
+    .co-branding{
+        background-image: url(../img/index-bg-md.png);
+        background-position: 0 0;
+        height: 100%;
+    }
+}
+@media (max-width: 375px) {
+    .co-branding{
+        background-image: url(../img/index-bg-sm.png);
+    }
+}
+@media (max-width: 576px) {
+    .co-branding h2 {
+        font-size: 24px;
+    }
+}
+
+.coBrand_card {
+    width: 50%;
+}
+
+@media (max-width: 992px) {
+    .coBrand_card {
+        width: 100%;
+    }
+}
+
+
+
+.recommend_card {
+    width: calc(25% - 18px);
+    border-radius: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+}
+
+@media (max-width: 992px) {
+    .recommend_card {
+        width: calc(50% - 12px);
+        
+    }
+}
+@media (max-width: 576px) {
+    .recommend_card {
+        width: 100%;
+
+    }
+}
+.recommend_cardText{
+    height: 205px;
+
+}
+.date{
+    font-size: 14px;
+    color: #707070;
+}
+
+.width50{
+    width: 50%;
+}
+@media (max-width: 992px) {
+    .width50{
+        width: 83%;
+    }
+}
+@media (max-width: 576px) {
+    .width50{
+        width: 100%;
+    }
+}
+input[type=text], textarea{
+    width: 100%;
+}
+input[type="submit"]{
+    width: 66%;
+    background-color: #aa0601;
+    border: none;
+    cursor: pointer;
+    padding: 16px 0;
+    color: #fff;
+}

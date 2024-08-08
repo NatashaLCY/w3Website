@@ -1,0 +1,80 @@
+nav {
+    /* height: 80px; */
+    background: #aa0601;
+    padding: 16px 0;
+}
+@media (max-width: 767px) {
+    nav {
+        padding: 16px 0 0 0;
+    }
+}
+/* @media (max-width: 375px) {
+    nav {
+        padding: 0px;
+    }
+} */
+.navBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .navBox{
+        display:block;
+    }
+}
+.menuUl{
+    display: flex;
+}
+@media (max-width: 767px) {
+    .menuUl {
+        flex-wrap: wrap;
+        /* margin: 0 -14px; */
+    }
+}
+h1 a {
+    display: block;
+    background-image: url(../img/logo-white.png);
+    width: 80px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@media (max-width: 767px) {
+    h1 {
+        padding: 16px 15px;
+    }
+}
+.menuUl li {
+    color: #fff;
+    font-size: 20px;
+}
+@media (max-width: 767px) {
+    .menuUl li{
+        font-size: 16px;
+        border: 1px solid #fff;
+        width: 50%;
+        margin-right: 0;
+        padding: 12px 0px;
+        text-align: center;
+    }
+}
+.menuUl li a{
+    padding: 25px 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.menuUl li a:hover{
+    text-decoration: underline;
+}
+.mr-12{
+    margin-right: 48px;
+}
+@media (max-width: 767px){
+    .mr-16 {
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,151 @@
+footer{
+    background-color: #aa0601;
+    padding: 48px 0 32px 0;
+}
+/* @media (max-width: 768px) {
+    footer {
+        padding: 48px 0 40px 0;
+    }
+} */
+@media (max-width: 767px) {
+    footer {
+        padding: 24px 0;
+    }
+}
+.footerBox{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: start; */
+    padding: 0 0 32px 0;
+}
+@media (max-width: 767px) {
+    .footerBox{
+        padding: 0 0 24px 0;
+    }
+}
+/* .fMenu {
+    display: block;
+} */
+@media (max-width: 767px) {
+    .fMenu {
+        display: none;
+    }
+}
+
+.fMenu ul{
+    display: flex;
+}
+.fMenu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 0;
+}
+.fMenu ul li a:hover{
+    text-decoration: underline;
+}
+.mr-12{
+    margin-right: 48px;
+}
+/* .social{
+
+} */
+.social{
+    display: flex;
+}
+.social li{
+    width: 48px;
+}
+/* @media (max-width: 768px) {
+    .social li {
+        width: 40px;
+    }
+} */
+@media (max-width: 767px) {
+    .social li {
+        width: 24px;
+    }
+}
+.mr-8{
+    margin-right: 32px;
+}
+/* @media (max-width: 768px) {
+    .mr-8{
+        margin-right: 16px;
+    }
+} */
+@media (max-width: 767px) {
+    .mr-8{
+        margin-right: 8px;
+    }
+}
+.tel{
+    padding: 36px 0 0 0;
+}
+/* @media (max-width: 768px) {
+    .tel {
+        padding: 32px 0 0 0;
+    }
+} */
+@media (max-width: 767px) {
+    .tel {
+        padding: 0;
+    }
+}
+.tel, .mail {
+    color: #fff;
+    font-size: 36px;
+    padding-top: 8px;
+}
+@media (max-width: 767px) {
+    .tel, .mail {
+        font-size: 16px;
+    }
+}
+.tel p span, .mail p span{
+    padding-right: 22px;
+}
+@media (max-width: 767px) {
+    .tel p span, .mail p span{
+        padding-right: 11px;
+        font-size: 24px;
+    }
+}
+.tel span, .mail span {
+    color: #fff;
+    font-size: 36px;
+    vertical-align: middle;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    padding: 32px 0 0 0;
+    /* margin-top: 32px; */
+}
+@media (max-width: 767px) {
+    .copyright{
+        display: block;
+        padding: 16px 0 0 0;
+    }
+}
+
+.copyright p{
+    color: #fff;
+}
+.privacy {
+    display: flex;
+}
+@media (max-width: 767px) {
+    .privacy {
+        display: block;
+    }
+}
+.privacy a{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 0;
+}
+.privacy li{
+    padding-top: 8px;
+}
